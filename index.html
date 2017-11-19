@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Oh my Blog!</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/style/main.css">
-	</head>
-	<body>
-<article>Hello world!</article>
-		<footer>
-    		<a href="mailto:quicknquiet@protonmail.com">Reach me</a>
-		</footer>
-	</body>
-</html>
+---
+layout: default
+title: Oh my blog!
+---
+<h1>{{ page.title }}</h1>
+<ul class="posts">
+
+  {% for post in site.posts %}
+	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

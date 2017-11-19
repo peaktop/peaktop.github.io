@@ -1,0 +1,8 @@
+body {
+    padding-left:2%;
+}
+article {
+    max-width:500pt;
+    text-indent: -1pt;
+    font-family: 'Fira Sans', sans-serif;
+}

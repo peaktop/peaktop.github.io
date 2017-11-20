@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   letter-spacing: -0.002em;
   font-weight: 700;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.264;
   letter-spacing: -.004em;
 }

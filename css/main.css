@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-article {
+body {
 margin:0 50%;
-padding: 0 0 0 2%;}
+}
+
+article {
+padding-left:2em;
+}
